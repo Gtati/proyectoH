@@ -318,3 +318,100 @@ a .bx {
     color: #606060;
     
   }
+
+  @media(max-width:920px){
+    .Download{
+        margin-right: 1rem;
+    }
+h1{
+    padding-left: 2rem;
+    
+}.text1{
+    padding-left: 2rem;
+}
+.phone{
+    padding-right: 6rem;
+}
+.buttons{
+    margin-left: 3rem;
+}
+.computer{
+    margin: 0;
+    padding: 0;
+    width: 200px;
+
+}.cajas{
+    flex-wrap:wrap
+}
+
+.containerMedia{
+    margin-left: 3rem;
+}
+.part2{
+    height: 33rem;
+}
+.text2, .p1, .p2, .chulo{
+  padding-left: 13rem;
+}
+.content{
+    width: auto;
+}
+  }
+@media(max-width: 480px) {
+    .header{
+        display: block;
+    }
+    .navbar{
+        flex-wrap: wrap;
+    }.title{
+        width: 100%;
+        height: 38rem;
+    }.title2{
+        display: none;
+    }
+    .buttons{
+        margin-left: .3rem;
+    }
+    .title3{
+        font-size: 2.5rem;
+    }
+    .container1{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .part2{
+        height: auto;
+    }
+    .computer{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .laptop{
+        margin:0;
+        width: 20rem;
+        height: 12rem;
+    }
+   .logo{
+    margin-left: 2rem;
+   }.content{
+        width: 90%;
+        padding: 1rem;
+    }
+    .text2, .p1, .p2,.chulo{
+        padding-left: 2rem;
+    }
+    .text2{
+        padding-top: 2rem;
+    }
+    .final{
+        padding-left: 7rem;
+    }
+    .footer{
+        flex-direction: column;
+       padding-right: 4rem;
+    }
+    .containerMedia{
+        margin-left: 5rem;
+    }
+}
